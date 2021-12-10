@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+</head>
+
+<body>
+<center><h1>Restaurante el Centollo</h1></center>
+<br>
+<h3>Haz tu reserva</h3>
+
+<form>
+	<p>
+	Nombre: <input type="tex"name="nombre" autofocus="">
+	</p>
+
+	<p>
+	Correo electrónico: <input type="email" name="correo">
+	</p>
+
+	<p>
+	Teléfono: <input type="tel" name="telefono">
+	</p>
+
+	<p>
+	Fecha de Reserva: <input type="date" name="fecha">
+	</p>
+
+	<p>
+	Franja Horaria: <input type="time" name="hora"><input type="time" name="hora">
+	</p>
+	
+	<p>
+	Comensales (min 1, max 10): <input type="number" name="cantidad" min="1" max="10" step="1">
+	</p>
+
+	<p>
+	color del mantel: <input type="color" name="color"
+	</p>
+
+	<p>
+	Demandas especiales: <br>
+	<textarea name="texto" rows="3" cols="30"></textarea>
+	</p>
+
+	<p>
+	<input type="submit" value="Enviar">
+	</p>
+</form>
+</body>
+
+</html>
